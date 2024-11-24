@@ -1,0 +1,55 @@
+/* bagian pertama */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar{
+	width: 100%;
+	padding: 30px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	background-image: url(navbarbg.png);
+	background-size: cover; /* Membuat gambar memenuhi elemen */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+	justify-content: space-between;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+.logo{
+	width: 160px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #d93923;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 100px;
+}
+
+li a:hover{
+	background: white;
+	transition: 0.5s;
+}
+
+.navbar a:hover{
+	color: #d93923;
+}
